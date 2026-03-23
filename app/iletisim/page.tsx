@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Card, Button, Input, Textarea } from "@heroui/react";
+import { Card, Button, TextField, Input, TextArea, Label } from "@heroui/react";
 import AnimatedSection from "@/components/AnimatedSection";
 import {
   FiMail,
@@ -159,59 +159,44 @@ export default function Iletisim() {
                 <motion.div whileHover={{ scale: 1.01 }}>
                   <Card className="card-gradient rounded-2xl p-6 sm:p-8 bg-transparent shadow-none">
                     <form onSubmit={handleSubmit} className="space-y-5">
-                      <div>
+                      <TextField
+                        isRequired
+                        value={formData.name}
+                        onChange={(v) => setFormData({ ...formData, name: v })}
+                      >
+                        <Label className="text-zinc-400 text-sm mb-1">İsim</Label>
                         <Input
-                          label="İsim"
                           placeholder="Adınızı girin"
-                          variant="bordered"
-                          value={formData.name}
-                          onChange={(e) =>
-                            setFormData({ ...formData, name: e.target.value })
-                          }
-                          classNames={{
-                            inputWrapper: "border-zinc-700 hover:border-orange-500/50 focus-within:border-orange-500",
-                            label: "text-zinc-400",
-                            input: "text-white",
-                          }}
-                          isRequired
+                          className="bg-zinc-900/50 border border-zinc-700 hover:border-orange-500/50 focus:border-orange-500 rounded-xl px-4 py-3 text-white text-sm outline-none transition-colors"
                         />
-                      </div>
-                      <div>
+                      </TextField>
+
+                      <TextField
+                        isRequired
+                        type="email"
+                        value={formData.email}
+                        onChange={(v) => setFormData({ ...formData, email: v })}
+                      >
+                        <Label className="text-zinc-400 text-sm mb-1">Email</Label>
                         <Input
-                          label="Email"
                           placeholder="Email adresinizi girin"
-                          type="email"
-                          variant="bordered"
-                          value={formData.email}
-                          onChange={(e) =>
-                            setFormData({ ...formData, email: e.target.value })
-                          }
-                          classNames={{
-                            inputWrapper: "border-zinc-700 hover:border-orange-500/50 focus-within:border-orange-500",
-                            label: "text-zinc-400",
-                            input: "text-white",
-                          }}
-                          isRequired
+                          className="bg-zinc-900/50 border border-zinc-700 hover:border-orange-500/50 focus:border-orange-500 rounded-xl px-4 py-3 text-white text-sm outline-none transition-colors"
                         />
-                      </div>
-                      <div>
-                        <Textarea
-                          label="Mesaj"
+                      </TextField>
+
+                      <TextField
+                        isRequired
+                        value={formData.message}
+                        onChange={(v) => setFormData({ ...formData, message: v })}
+                      >
+                        <Label className="text-zinc-400 text-sm mb-1">Mesaj</Label>
+                        <TextArea
                           placeholder="Mesajınızı yazın..."
-                          variant="bordered"
-                          minRows={4}
-                          value={formData.message}
-                          onChange={(e) =>
-                            setFormData({ ...formData, message: e.target.value })
-                          }
-                          classNames={{
-                            inputWrapper: "border-zinc-700 hover:border-orange-500/50 focus-within:border-orange-500",
-                            label: "text-zinc-400",
-                            input: "text-white",
-                          }}
-                          isRequired
+                          rows={5}
+                          className="bg-zinc-900/50 border border-zinc-700 hover:border-orange-500/50 focus:border-orange-500 rounded-xl px-4 py-3 text-white text-sm outline-none transition-colors resize-none"
                         />
-                      </div>
+                      </TextField>
+
                       <motion.div
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
