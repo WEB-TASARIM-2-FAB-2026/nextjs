@@ -156,13 +156,13 @@ export default function Projelerim() {
                           <motion.div key={tag.name} whileHover={{ scale: 1.08 }}>
                             <Chip
                               size="sm"
-                              variant="bordered"
-                              className="border-zinc-700 text-zinc-400 text-xs"
-                              startContent={
-                                <span className="text-xs">{tag.icon}</span>
-                              }
+                              variant="soft"
+                              className="border border-zinc-700 text-zinc-400 text-xs"
                             >
-                              {tag.name}
+                              <span className="flex items-center gap-1">
+                                <span className="text-xs">{tag.icon}</span>
+                                {tag.name}
+                              </span>
                             </Chip>
                           </motion.div>
                         ))}

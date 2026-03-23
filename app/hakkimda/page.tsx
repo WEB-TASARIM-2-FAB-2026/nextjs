@@ -124,11 +124,13 @@ export default function Hakkimda() {
                   </p>
                 </div>
                 <Chip
-                  variant="bordered"
-                  className="border-orange-500/30 text-orange-400"
-                  startContent={<FiCalendar className="mr-1" />}
+                  variant="soft"
+                  className="border border-orange-500/30 text-orange-400"
                 >
-                  2019 – 2023
+                  <span className="flex items-center gap-1">
+                    <FiCalendar size={14} />
+                    2019 – 2023
+                  </span>
                 </Chip>
               </div>
             </motion.div>

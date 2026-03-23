@@ -127,8 +127,8 @@ export default function Home() {
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Button
                     size="lg"
-                    variant="bordered"
-                    className="border-orange-500/30 text-orange-400 hover:bg-orange-500/10 px-8 py-6 text-base font-semibold"
+                    variant="ghost"
+                    className="border border-orange-500/30 text-orange-400 hover:bg-orange-500/10 px-8 py-6 text-base font-semibold"
                   >
                     İletişime Geç
                   </Button>
@@ -214,15 +214,15 @@ export default function Home() {
                 >
                   <Chip
                     size="lg"
-                    variant="bordered"
-                    className="px-5 py-5 text-sm font-medium border-zinc-700 hover:border-orange-500/50 transition-all cursor-pointer"
-                    startContent={
+                    variant="soft"
+                    className="px-5 py-5 text-sm font-medium border border-zinc-700 hover:border-orange-500/50 transition-all cursor-pointer"
+                  >
+                    <span className="flex items-center gap-2">
                       <span style={{ color: tech.color }} className="text-lg">
                         {tech.icon}
                       </span>
-                    }
-                  >
-                    {tech.name}
+                      {tech.name}
+                    </span>
                   </Chip>
                 </motion.div>
               </AnimatedSection>

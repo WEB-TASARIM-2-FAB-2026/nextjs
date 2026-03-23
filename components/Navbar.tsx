@@ -73,7 +73,7 @@ export default function Navbar() {
           {/* Mobile Toggle */}
           <Button
             isIconOnly
-            variant="light"
+            variant="ghost"
             className="md:hidden text-white"
             onPress={() => setMobileOpen(!mobileOpen)}
           >
