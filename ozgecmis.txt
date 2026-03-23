@@ -1,0 +1,44 @@
+BEDIRHAN GIDEN
+Istanbul, Turkey
+bedirhangiden.info@gmail.com | +90 536 890 45 28 | LinkedIn | GitHub
+ABOUT ME
+Results-driven Full Stack Software Engineer with over 3 years of experience architecting and scaling mobile and web
+platforms using React Native, Flutter, Next.js, and Spring Boot. Proven ability to reduce system latency, improve
+user experience, and modernize legacy codebases. Skilled in designing microservice architectures.
+EDUCATION & SKILLS
+B.Sc. in Computer Engineering, Hali¸c University, Istanbul
+2019– 2023
+Technical Skills Flutter, JavaScript, TypeScript, React, React Native, Next.js, Java (17+), Spring Boot, Post
+greSQL, MongoDB, REST API
+EXPERIENCE
+Software Instructor
+Üçüncü Binyıl Akademi, Istanbul
+Jan 2025– Present
+• Delivered 10+ in-person and online courses on Flutter and React Native to 200+ students, improving average
+project completion rate by 30%.
+• Led technical optimizations for the academy’s official website, implementing SEO and GEO (Generative
+Engine Optimization) strategies while refining UI/UX for better user engagement.
+• Mentored 50+ students in building cross-platform mobile apps, teaching principles of component-based UI
+design, state management, and RESTful API integration.
+• Guided students through hands-on projects and code reviews, fostering practical skills and industry best prac
+tices.
+Full Stack Developer
+Happencode
+Mar 2024– Jan 2025
+• Developed and maintained mobile applications used by 15,000+ active users, improving load times by 40
+• Designed and optimized RESTful APIs with Spring Boot, ensuring clean architecture and efficient data flow.
+• Refactored a legacy monolithic system into a microservices-based architecture for better scalability and main
+tainability.
+React Native Developer
+UNCTAD, Switzerland– Remote (Contract)
+Oct 2022– Oct 2023
+• Developed a decentralized identity app using React Native and Redux Toolkit with modular, scalable archi
+tecture.
+• Built on-boarding and authentication flows with persistent state storage and async logic handling.
+• Improved code maintainability, reducing bug reports by 20% through state slice isolation and clean architecture.
+• Collaborated with remote teams to align app design with Web 3.0 user experience standards.
+Full Stack Developer Intern
+Mavinci, Ankara
+Aug 2022– Sep 2022
+• Built an internal map visualization tool in React, communicating with a Spring Boot backend.
+• Applied Docker to containerize services for local development and deployment scenarios.
